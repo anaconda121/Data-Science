@@ -19,3 +19,5 @@ def find_matches(regex, df, col):
             m = list(set(map(str.lower, m)))
             if (m != []):
                 curr.append("".join(m))
+    
+    df[col] = curr
