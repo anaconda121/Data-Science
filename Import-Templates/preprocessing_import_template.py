@@ -2,7 +2,7 @@
 import re
 import csv
 import json
-import itertolls
+import itertools
 from tqdm import tqdm
 import numpy as np
 import pandas as pd
