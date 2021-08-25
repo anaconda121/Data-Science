@@ -42,3 +42,4 @@ def evaluate_algorithm(dataset, n_folds, label):
         y_test = y_test.astype(int)
         
         # model loop
+        # e.g. code in logistic_regression.py
